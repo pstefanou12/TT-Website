@@ -1,0 +1,38 @@
+/* This file contains the styling for the navbar on the homepage of the Theta Tau website */
+
+/*cursor for any link*/
+a:-webkit-any-line { 
+	cursor : pointer; 
+ }
+
+/*styles the body of the navbar doc*/
+body { 
+	font-family : "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight : 300;
+	font-size : 17px;
+}
+
+/*styles basic attributes of the navbar*/
+.topnav { 
+	background-color : darkred;
+	
+}
+
+/*styles the individual links of the navbar*/
+.topnav a { 
+	text-align : center;;
+	color : white;
+	padding : 20px 20px;
+	text-decoration : none;
+}
+
+/*styles the individual links when hovered over*/
+.topnav a:hover { 
+	color : rgba(255,255,255,.72); 
+}
+
+/*styles the individual links when it is active -> at the given section*/
+.topnav a.active { 
+
+
+}

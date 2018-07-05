@@ -1,0 +1,74 @@
+/* This file contains the stylesheet for the Theta Tau website's footer*/
+
+
+/* Body Styling */
+a { 
+	text-decoration : none;  
+}
+
+body { 
+	background-color : darkred;  
+	font-family : "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color : white;
+}
+
+footer .foot-col { 
+	float : left;
+	width : 33.3%;
+	padding-top: 50px;
+}
+
+#col-2 { 
+	text-align : center;
+}
+
+#contact_link { 
+	padding-left : 10px;
+	font-size : 10px;
+	color : white;
+}
+
+#about_link { 
+	padding-right : 10px;
+	font-size : 10px;
+	color : white;
+}
+
+#about_link:hover { 
+	color : rgba(255,255,255,.72);
+}
+
+#contact_link:hover { 
+	color : rgba(255,255,255,.72);
+}
+
+#col-3 { 
+	text-align : right;
+}
+
+#tt_logo { 
+	height : 100px;
+	width : auto;
+
+}
+
+#frat { 
+	font-size : 40px;
+}
+
+/* Social Media Links List Styling */ 
+ul { 
+	list-style-type : none; 
+	font-size : 30px;
+
+}
+
+ul#social li { 
+	display : inline;
+	padding : 20px;
+
+}
+
+ul#social li a {   
+	color : white;
+}

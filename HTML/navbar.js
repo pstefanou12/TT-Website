@@ -1,0 +1,1 @@
+/*This file provides the javscript required to set up dynamic actions for homepage navbar*/
