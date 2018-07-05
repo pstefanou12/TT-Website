@@ -9,23 +9,35 @@
 	<meta name = "author" content = "Patroklos Stefanou"> 
 	<meta http-equiv = "refresh" content = "30">
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<!-- stylesheet --> 
+	<link rel = "stylesheet" type = "text/css" href = "contact.css">
 </head>
 
 <body> 
 	<div id = "contact"> 
 		<div class = "contact-container"> 
-			<h2>Have Any Questions or Concerns?</h2>
-			<form action = ""> 
-				<label for = "name">Name*</label>
-				<input type = "text" id = "name" name = "firstname"> 
-				<input type = "text" id = "name" name = "lastname"><br> 
-				<label for = "email">Email*</label>
-				<input type = "text" id = "email" name = "email_address"><br> 
-				<label for = "subj">Subject*</label>
-				<input type = "text" id = "subj" name = "subject"><br> 
-				<label for = "msg">Message*</label>
-				<input type = "text" id = "msg" name = "message"><br> 
-				<input type = "submit" value = "Submit"> 
+			<span id = "contact_title">Have Any Questions or Concerns?</span>
+			<form action = "" class = "form-inline"> 
+				<div class = "block">
+					<label class = "labels" for = "name">Name*</label><br>
+					<input type = "text" class = "name" id = "first" name = "firstname" placeholder = "First Name"> 
+					<input type = "text" class = "name" id = "last" name = "lastname" placeholder = "Last Name"><br> 
+				</div>
+				<div class = "block">
+					<label class ="labels" for = "email">Email*</label><br>
+					<input type = "text" id = "email" class = "other_input" name = "email_address" placeholder = "Email"><br>
+				</div>
+				<div class = "block"> 
+					<label class = "labels" for = "subj">Subject*</label><br>
+					<input type = "text" id = "subj" class = "other_input" name = "subject" placeholder = "Subject"><br>
+				</div>
+				<div class = "block"> 
+					<label class = "labels" for = "msg">Message*</label><br>
+					<textarea id = "msg" class = "other_input" name = "message" placeholder = "Message"></textarea><br>
+				</div>
+				<div id = "submit_block">
+					<input type = "submit" id = "submit" value = "Submit"> 
+				</div>
 			</form>
 	</div>
 </body>
